@@ -15,7 +15,7 @@ api_key = os.getenv("API_KEY")
 # --- OpenAI Configuration (from your provided code) ---
 client = OpenAI(
     api_key=api_key,  # Replace with your actual AvalAI API key
-    base_url="https://api.avalai.ir/v1",  # Base URL for AvalAI
+    base_url="https://api.avalai.ir/v1",  # Base URL for AvalAI; This line is for Iranian who are under regional limitations; Remove it if you are not in Iran.
 )
 
 # --- Function to encode the image to Base64 (from your provided code) ---
