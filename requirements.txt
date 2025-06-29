@@ -1,0 +1,8 @@
+pyTelegramBotAPI  # Or the specific version you are using
+python-dotenv==1.0.0 # Or the specific version you are using
+openai==1.35.1  # Or the specific version you are using
+Pillow==10.3.0  # Or the specific version you are using (PIL is part of Pillow)
+ccxt==4.3.56  # Or the specific version you are using
+pandas==2.2.2  # Or the specific version you are using
+plotly==5.22.0  # Or the specific version you are using
+kaleido==0.2.1  # Required for fig.write_image()
